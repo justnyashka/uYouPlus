@@ -128,9 +128,9 @@ jobs:
           
       - name: Download and Move .deb File
         run: |
-          wget "https://files.catbox.moe/q6tvoo.deb" -O com.miro.uyou_3.0.3_iphoneos-arm.deb
+          wget "https://files.catbox.moe/q6tvoo.deb" -O com.miro.uyou_3.0.4_iphoneos-arm.deb
           mkdir -p Tweaks/uYou
-          mv com.miro.uyou_3.0.3_iphoneos-arm.deb Tweaks/uYou/
+          mv com.miro.uyou_3.0.4_iphoneos-arm.deb Tweaks/uYou/
           
       - name: Fix compiling & Build Package
         id: build_package
